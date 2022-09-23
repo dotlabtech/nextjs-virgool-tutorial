@@ -1,0 +1,27 @@
+.footer {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  margin: 60px 0 20px;
+  text-align: center;
+}
+
+.footer__media {
+  display: flex;
+  align-items: center;
+  filter: grayscale(1);
+  gap: 10px;
+}
+
+.footer__date {
+  color: #0061bb;
+}
+
+
+@media (max-width: 320px) {
+  .footer__copyright {
+    font-size: 14px;
+  }
+}

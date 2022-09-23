@@ -1,0 +1,14 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  gap: 20px;
+}
+
+@media (max-width: 576px) {
+  .header {
+    font-size: 20px;
+  }
+}

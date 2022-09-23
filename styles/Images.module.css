@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  row-gap: 20px;
+  margin-top: 20px;
+}
+
+.image__wrapper {
+  display: flex;
+  height: 170px;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: 1px 3px 5px rgba(0, 11, 31, 0.5);
+  margin-bottom: 40px;
+}
+
+.image__wrapper,
+.image__wrapper img {
+  border-radius: 3px;
+}

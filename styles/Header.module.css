@@ -1,0 +1,40 @@
+.backdrop {
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(5px);
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 20px;
+  color: #fefefe;
+  background-color: #000b1f;
+  box-shadow: 0 1px 7px rgba(0, 11, 31, .9);
+  opacity: 90%;
+}
+
+.header__links {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.header__links a {
+  color: inherit;
+}
+
+.header__logo {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fefefe;
+  border-radius: 20rem;
+}

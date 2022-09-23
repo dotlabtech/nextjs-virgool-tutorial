@@ -1,0 +1,94 @@
+.post,
+.post__content {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  padding-top: 20px;
+  row-gap: 40px;
+}
+
+.post img:not(.post__author__image) {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.post p {
+  display: flex;
+  flex-flow: wrap;
+  line-height: 2rem;
+}
+
+.post pre {
+  direction: ltr;
+  padding: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+  background-color: rgba(0, 11, 31, 0.9);
+}
+
+.post pre,
+.post blockquote {
+  border-radius: 3px;
+  overflow-x: auto;
+}
+
+.post blockquote {
+  padding: 10px;
+  color: #001130;
+  background-color: #fff;
+  border-right: #0061bbb3 solid 5px;
+}
+
+.post blockquote p {
+  gap: 10px;
+}
+
+.post li {
+  list-style-position: inside;
+  margin-bottom: 15px;
+}
+
+.post__headline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post__date {
+  font-weight: bold;
+  color: #0061bb;
+}
+
+.post__author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.post__author__name {
+  font-size: larger;
+  letter-spacing: 1px;
+}
+
+.post__author__image {
+  width: 64px;
+  height: 64px;
+  border-radius: 20rem;
+}
+
+.post__cover {
+  box-shadow: 0 3px 15px gray;
+}
+
+@media (max-width: 576px) {
+  .post img:not(.post__author__image) {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .post__title {
+    font-size: 20px;
+  }
+}
