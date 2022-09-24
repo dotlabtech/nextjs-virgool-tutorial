@@ -4,7 +4,7 @@ date: 2022/5/12
 description: how to create shorter imports
 author: ابراهیم
 author_image: https://files.virgool.io/upload/users/543792/avatar/eeM4Nw.jpeg?x-img=v1/resize,h_120,w_120/optimize,q_100
-cover: https://wp.sitepen.com/wp-content/uploads/2017/10/State-of-Modules-in-JavaScript-1024x538.jpg
+cover: https://iili.io/LSV4HP.jpg
 ---
 
 اگر با فریم ورک هایی مثل react کار کرده باشید، با این نمونه کد خیلی خوب آشنا هستین:
