@@ -1,7 +1,7 @@
-import Post from '../../components/Post'
-import Layout from '../../components/Layout'
-import styles from '../../styles/Posts.module.css'
-import { getPosts } from '../../lib/posts'
+import Post from '@/components/Post'
+import Layout from '@/components/Layout'
+import styles from '@/styles/Posts.module.css'
+import { getPosts } from '@/lib/posts'
 
 const PostsPage = ({ posts }) => {
   return (

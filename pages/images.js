@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import Layout from '../components/Layout'
-import styles from '../styles/Images.module.css'
+import Layout from '@/components/Layout'
+import styles from '@/styles/Images.module.css'
 
 import fs from 'fs'
 import path from 'path'

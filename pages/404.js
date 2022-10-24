@@ -1,4 +1,4 @@
-import styles from '../styles/NotFound.module.css'
+import styles from '@/styles/NotFound.module.css'
 
 import Link from 'next/link'
 import Layout from '@/components/Layout'

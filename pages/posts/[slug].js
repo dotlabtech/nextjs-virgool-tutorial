@@ -1,8 +1,8 @@
-import { getSlugs, getPost } from '../../lib/posts'
+import { getSlugs, getPost } from '@/lib/posts'
 import { marked } from 'marked'
 
-import styles from '../../styles/Post.module.css'
-import Layout from '../../components/Layout'
+import styles from '@/styles/Post.module.css'
+import Layout from '@/components/Layout'
 import Link from 'next/link'
 
 const PostPage = ({ title, content, date, description, author, author_image, cover }) => {

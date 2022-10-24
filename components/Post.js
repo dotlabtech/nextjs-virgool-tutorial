@@ -1,4 +1,4 @@
-import styles from '../styles/Posts.module.css'
+import styles from '@/styles/Posts.module.css'
 import Link from 'next/link'
 
 const Post = ({ post }) => {
